@@ -16,10 +16,10 @@ Please ensure the user running stored procedure in test scenarios has access to 
 Please make yourself familiar with all variables running this proc. The default settings allow running the SP providing the only @fullPath. However additional data manipulation is possible - please see TestScenarios.sql
 Variables description and default values:
 - @dayDiff	= 1, --if set to 0 it will run for all possible days otherwise it is a value of days between buy and sell.
--	@bestTrade	= 0, --if set to one and dayDiff grater from 1 then it SP will rank all days within dayDiff.
--	@allFiles	= 0, -- 0 loads only 1 selected file and 1 run all files in the folder. Files have to be in alphabetical order without special characters ChallengeSampleDataSet1, ChallengeSampleDataSet2, ChallengeSampleDataSet3 available in folder.
--	@fullPath	= NULL, --UNC standard. The maximum length for a path is MAX_PATH, which is defined as 260 characters. Win 10 allows overriding this setting. Mandatory.
-- @minBuyDay  = NULL, --select minimum starting opening trade date. If Null selected will be a minimum value from the data loaded.
-- @maxBuyDay  = NULL --select maximum starting opening trade date. If Null selected will be a maximum value from the data loaded.
+-	@bestTrade	= 0, --if set to 1 and dayDiff grater from 1 then SP will rank all days within dayDiff.
+-	@allFiles	= 0, -- 0 loads only one selected file and 1 run all files in the folder. Files have to be in alphabetical order without special characters ChallengeSampleDataSet1, ChallengeSampleDataSet2, ChallengeSampleDataSet3 available in folder.
+-	@fullPath	= NULL, --UNC standard. The maximum length for a path is MAX_PATH, which is defined as 260 characters. Win 10 allows overriding this setting. Mandatory variable.
+- @minBuyDay  = NULL, --select minimum opening trade date. If Null is selected will be a minimum value from the data loaded.
+- @maxBuyDay  = NULL --select maximum opening trade date. If Null is selected will be a maximum value from the data loaded.
 
 Test files attached.
