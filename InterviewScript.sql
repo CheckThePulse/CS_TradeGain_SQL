@@ -3,7 +3,7 @@
 --Title:		CTS: Software Development
 --				Pre-Interview Coding Challenge
 ---------------------------------------------------------------------------------
---Autor:		Kamil Teczkowski
+--Author:		Kamil Teczkowski
 --Created on:	30/01/2020
 --Version:		1.0
 --Description:	Development script for interview task to calculate the highest 
